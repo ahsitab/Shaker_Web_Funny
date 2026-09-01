@@ -819,10 +819,6 @@ section:nth-child(even) {
   font-style: italic;
   margin-bottom: 0.9rem;
   line-height: 1.5;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
 }
 
 .member-btn {
@@ -1810,6 +1806,8 @@ footer {
   transform: scale(0.9) translateY(20px);
   transition: transform 0.3s ease;
   position: relative;
+  /* iOS smooth scrolling */
+  -webkit-overflow-scrolling: touch;
 }
 
 .modal-overlay.show .modal-box {
