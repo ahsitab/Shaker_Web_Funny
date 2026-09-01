@@ -65,7 +65,8 @@ function placeholderPhoto(emoji = '👤') {
 }
 
 function memberPhotoHtml(src, alt, cls = '') {
-  return `<img src="${src}" alt="${alt}" class="${cls}" onerror="this.parentElement.innerHTML='${placeholderPhoto()}'">`;
+  const fallback = placeholderPhoto().replace(/"/g, "\\'");
+  return `<img src="${src}" alt="${alt}" class="${cls}" onerror="this.parentElement.innerHTML='${fallback}'">`;
 }
 
 // ===================== NAVBAR =====================
