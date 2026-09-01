@@ -2137,7 +2137,7 @@ footer {
   .gallery-grid { columns: 2 150px; }
   .fgallery-grid { columns: 2 140px; }
 
-  .family-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+  .family-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
 
   .timeline-line { left: 1.5rem; }
   .timeline-item, .timeline-item:nth-child(odd) { flex-direction: row; }
@@ -2152,15 +2152,48 @@ footer {
   .lightbox-nav { display: none; }
 
   .poll-grid { grid-template-columns: repeat(3, 1fr); }
+
+  /* Modal full-screen on mobile */
+  .modal-overlay { padding: 0; align-items: flex-end; }
+  .modal-box {
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+    max-height: 92vh;
+    width: 100%;
+  }
+
+  /* Chat window mobile fix */
+  .chat-window { border-radius: var(--border-radius); }
+  .chat-messages { max-height: 320px; padding: 1rem; }
+  .chat-bubble-wrap { max-width: 85%; }
+
+  /* Concern section mobile */
+  .concern-bubble { max-width: 85%; }
+  .concern-avatar { width: 40px; height: 40px; }
 }
 
 @media (max-width: 480px) {
   .gallery-grid { columns: 2 140px; column-gap: 0.6rem; }
   .fgallery-grid { columns: 2 130px; column-gap: 0.6rem; }
-  .family-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .family-grid { grid-template-columns: 1fr 1fr; gap: 0.8rem; }
   .awards-grid { grid-template-columns: 1fr; }
   .poll-grid { grid-template-columns: repeat(2, 1fr); }
   .dialogue-text { font-size: 1rem; }
+
+  /* Smaller member cards on tiny screens */
+  .member-card-body { padding: 0.9rem; }
+  .member-name { font-size: 0.95rem; }
+  .member-title { font-size: 0.75rem; }
+  .member-btn { font-size: 0.78rem; padding: 0.45rem 0.8rem; }
+
+  /* Modal body padding */
+  .modal-body { padding: 1.2rem; }
+  .modal-name { font-size: 1.4rem; }
+
+  /* Hero text */
+  .hero-badge { font-size: 0.78rem; padding: 0.3rem 0.9rem; }
+
+  /* Toast mobile */
+  .toast { font-size: 0.85rem; padding: 0.7rem 1.2rem; width: 90vw; text-align: center; white-space: normal; }
 }
 
 /* ===================== UTILITY CLASSES ===================== */
