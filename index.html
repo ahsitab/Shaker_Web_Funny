@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="আমাদের পরিবারের মজার Digital Museum — ছবি, গল্প, হাসি এবং একটু পাগলামি দিয়ে তৈরি।">
+  <meta name="keywords" content="পরিবার, বাংলা, ফ্যামিলি, শাকের, মজার ওয়েবসাইট">
+  <title>moynul hossain shaker</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <div class="nav-logo">যোগ্য পাত্র সাকের ভাই</div>
+    <div class="nav-links">
+      <a href="#hero">হোম</a>
+      <a href="#main-char">মূল চরিত্র</a>
+      <a href="#brother-gallery">গ্যালারি</a>
+      <a href="#family">পরিবার</a>
+      <a href="#family-tree">Family Tree</a>
+    </div>
+    <button class="nav-hamburger" id="hamburger" aria-label="মেনু">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="nav-mobile" id="mobile-nav">
+  <button class="nav-mobile-close" id="mobile-nav-close">✕</button>
+  <a href="#hero">🏠 হোম</a>
+  <a href="#main-char">⭐ মূল চরিত্র</a>
+  <a href="#brother-gallery">📸 গ্যালারি</a>
+  <a href="#family">👨‍👩‍👧‍👦 পরিবার</a>
+  <a href="#family-tree">🌳 Family Tree</a>
+</div>
+
+<!-- ===================== HERO ===================== -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-particles"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">👑 যোগ্য পাত্রের সন্ধানে</div>
+    <h1 class="hero-title">মইনুল হোসেন শাকের</h1>
+    <div class="hero-name"></div>
+    <p class="hero-subtext">
+      সুদর্শন, শান্তশিষ্ট এবং দায়িত্বশীল
+    </p>
+    <div class="hero-btns">
+      <a href="#main-char" class="btn-primary" id="hero-main-btn">মূল চরিত্রকে দেখুন ⭐</a>
+      <a href="#family" class="btn-secondary" id="hero-family-btn">পরিবারের সদস্যদের দেখুন 👨‍👩‍👧‍👦</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>নিচে স্ক্রল করুন</span>
+  </div>
+</section>
+
+<!-- ===================== MAIN CHARACTER ===================== -->
+<section id="main-char">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2 class="section-title">মইনুল হোসেন শাকের</h2>
+      <p class="section-subtitle">সুদর্শন, শান্তশিষ্ট এবং দায়িত্বশীল একজন মানুষ</p>
+    </div>
+
+    <div class="main-char-inner">
+      <!-- Photo -->
+      <div class="main-char-photo-wrap fade-in">
+        <div class="photo-border-glow"></div>
+        <div class="main-char-photo-frame">
+          <img src="images/family/shaker.jpg" alt="মইনুল হোসেন শাকের" id="mc-photo"
+               onerror="this.parentElement.innerHTML='<div style=\'font-size:8rem;display:flex;align-items:center;justify-content:center;height:100%;\'>😎</div>'">
+          <div class="photo-badge">⭐ যোগ্য পাত্র</div>
+        </div>
+        <div class="floating-emoji">💍</div>
+        <div class="floating-emoji">😂</div>
+        <div class="floating-emoji">❤️</div>
+      </div>
+
+      <!-- Info -->
+      <div class="main-char-info fade-in stagger-2">
+        <div class="char-badge">💼 পরিবারের আলোচিত সদস্য</div>
+        <h2 class="char-name" id="mc-name">মইনুল হোসেন শাকের</h2>
+        <div class="char-nickname" id="mc-nickname">ডাকনাম: "শাকের"</div>
+
+        <div class="char-intro-quote" id="mc-intro">
+          জগন্নাথ বিশ্ববিদ্যালয় থেকে M.Sc. সম্পন্ন করে বর্তমানে আইএফআইসি ব্যাংকে কর্মরত একজন সফল যুবক।
+        </div>
+
+        <div class="char-info-grid">
+          <div class="char-info-item">
+            <div class="char-info-label">পারিবারিক ভূমিকা</div>
+            <div class="char-info-value" id="mc-role">পরিবারের আলোচিত ব্যক্তি</div>
+          </div>
+          <div class="char-info-item">
+            <div class="char-info-label">বিশেষ উপাধি</div>
+            <div class="char-info-value" id="mc-title">বিবাহযোগ্য যুবক 💍</div>
+          </div>
+          <div class="char-info-item">
+            <div class="char-info-label">Personality</div>
+            <div class="char-info-value">শান্ত, হাস্যরসিক 😄</div>
+          </div>
+          <div class="char-info-item">
+            <div class="char-info-label">বর্তমান অবস্থা</div>
+            <div class="char-info-value">খালার চিন্তার বিষয় 😂</div>
+          </div>
+        </div>
+
+        <div class="char-dialogue-card">
+          <div class="char-dialogue-label">💬 বিখ্যাত উক্তি</div>
+          <div class="char-dialogue-text" id="mc-dialogue">"আমি ঠিকই বিয়ে করব, সবার মতামত ছাড়াও। 😄"</div>
+        </div>
+
+        <div class="char-tags" id="mc-tags">
+          <span class="char-tag">শান্ত</span>
+          <span class="char-tag">হাস্যরসিক</span>
+          <span class="char-tag">পরিবারপ্রিয়</span>
+          <span class="char-tag">🎯 নিজের মতো চলেন</span>
+        </div>
+
+        <div style="margin-top:2rem;">
+          <h3 style="color:var(--primary); margin-bottom:1rem; border-bottom:1px solid #444; padding-bottom:0.5rem;">ব্যক্তিগত ও যোগাযোগ তথ্য</h3>
+          <ul style="list-style:none; padding:0; line-height:1.8; color: var(--text);">
+            <li><strong>নাম:</strong> মোঃ ময়নুল হোসাইন শাকের</li>
+            <li><strong>জন্ম তারিখ:</strong> ১৪ এপ্রিল ১৯৯৫</li>
+            <li><strong>উচ্চতা:</strong> ৫.৭'</li>
+            <li><strong>রক্তের গ্রুপ:</strong> AB+</li>
+            <li><strong>জাতীয়তা:</strong> বাংলাদেশি</li>
+            <li><strong>জাতীয় পরিচয়পত্র নম্বর:</strong> ১৪৭৪৭৫৬০০২</li>
+            <li><strong>ধর্ম:</strong> ইসলাম</li>
+            <li><strong>পাসপোর্ট নম্বর:</strong> BW041454</li>
+            <li><strong>স্থায়ী ঠিকানা:</strong> মাতাব্বর পাড়া, ০৬ নং ওয়ার্ড, মাটিরাঙ্গা, খাগড়াছড়ি-৪৪৫০</li>
+            <li><strong>বর্তমান ঠিকানা:</strong> চা-৫৬, মির্জা ভিউ (৬বি), কুয়েতি মসজিদ রোড, উত্তর বাড্ডা, ঢাকা-১২১২</li>
+            <li><strong>মোবাইল:</strong> ০১৫৫৭৭৬৬৯৩৩</li>
+          </ul>
+        </div>
+        
+        <div style="margin-top:1.5rem;">
+          <h3 style="color:var(--primary); margin-bottom:1rem; border-bottom:1px solid #444; padding-bottom:0.5rem;">বর্তমান কর্মসংস্থান</h3>
+          <p style="color: var(--text);">অ্যাসোসিয়েট অফিসার ও সাব-ব্রাঞ্চ ইন-চার্জ<br>আইএফআইসি ব্যাংক পিএলসি, সাহেরুনবাগ সাব-ব্রাঞ্চ, বনশ্রী, ঢাকা</p>
+        </div>
+
+        <div style="margin-top:1.5rem;">
+          <h3 style="color:var(--primary); margin-bottom:1rem; border-bottom:1px solid #444; padding-bottom:0.5rem;">শিক্ষাগত যোগ্যতা</h3>
+          <ul style="list-style:none; padding:0; line-height:1.8; color: var(--text);">
+            <li><strong>M.Sc. (উদ্ভিদবিজ্ঞান):</strong> জগন্নাথ বিশ্ববিদ্যালয়, ২০২২ (৩.৭৯/৪.০০)</li>
+            <li><strong>B.Sc. (উদ্ভিদবিজ্ঞান):</strong> জগন্নাথ বিশ্ববিদ্যালয়, ২০১৯ (৩.৮১/৪.০০)</li>
+            <li><strong>HSC (বিজ্ঞান):</strong> ট্রাস্ট কলেজ, ২০১৩</li>
+            <li><strong>SSC (বিজ্ঞান):</strong> মাটিরাঙ্গা পাইলট হাই স্কুল, ২০১১</li>
+          </ul>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-top:0.5rem;"><strong>থিসিস:</strong> মাইক্রোবিয়াল বায়োটেকনোলজি | <strong>বিশেষ অর্জন:</strong> PEC ও JSC—উভয় পরীক্ষায় ট্যালেন্টপুল বৃত্তি অর্জন।</p>
+        </div>
+
+        <div style="margin-top:1.5rem;">
+          <h3 style="color:var(--primary); margin-bottom:1rem; border-bottom:1px solid #444; padding-bottom:0.5rem;">পারিবারিক তথ্য</h3>
+          <ul style="list-style:none; padding:0; line-height:1.8; color: var(--text);">
+            <li><strong>পিতার নাম:</strong> মাহবুবুর রহমান মামুন (M.A.) — অবসরপ্রাপ্ত প্রধান শিক্ষক</li>
+            <li><strong>মাতার নাম:</strong> কানিজ ফাতেমা (B.A.) — সরকারি চাকরি</li>
+            <li><strong>বড় ভাই:</strong> মোঃ সাদরুল হোসাইন জাবের (ব্যবসায়ী)</li>
+            <li><strong>ছোট ভাই:</strong> আসফার হোসাইন সিতাব (শিক্ষার্থী — M.Sc. in CSE, East West University)</li>
+          </ul>
+        </div>
+
+        <div class="ratings-block" style="margin-top: 2rem;">
+          <div class="ratings-title">📊 বিজ্ঞানসম্মত রেটিং</div>
+          <div id="mc-ratings">
+            <div class="rating-row"><span class="rating-label">ঠান্ডা থাকার ক্ষমতা 🧊</span><span class="rating-stars">⭐⭐⭐⭐☆</span></div>
+            <div class="rating-row"><span class="rating-label">রাগের পরিমাণ 😤</span><span class="rating-stars">⭐☆☆☆☆</span></div>
+            <div class="rating-row"><span class="rating-label">পরিবারকে ভালোবাসা ❤️</span><span class="rating-stars">⭐⭐⭐⭐⭐</span></div>
+            <div class="rating-row"><span class="rating-label">বিয়ের চিন্তা 💍</span><span class="rating-stars">☆☆☆☆☆</span></div>
+            <div class="rating-row"><span class="rating-label">Facebook Activity 📱</span><span class="rating-stars">⭐⭐☆☆☆</span></div>
+          </div>
+        </div>
+
+        <a href="#brother-gallery" class="btn-primary" style="display:inline-block;">তাঁর ছবিগুলো দেখুন 📸</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAMILY MEMBERS ===================== -->
+<section id="family">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2 class="section-title">পরিবারের সদস্যরা</h2>
+      <p class="section-subtitle">👨‍👩‍👧‍👦 প্রত্যেকেই অনন্য, প্রত্যেকেই বিশেষ!</p>
+    </div>
+
+    <div class="family-grid" id="family-grid">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BROTHER GALLERY ===================== -->
+<section id="brother-gallery">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2 class="section-title">মূল চরিত্রের ছবি সমগ্র 📸</h2>
+      <p class="section-subtitle">"ছবি আছে, প্রমাণও আছে" 😂</p>
+    </div>
+
+    <!-- Category Filters -->
+    <div class="gallery-filter fade-in">
+      <button class="filter-btn brother-filter-btn active" data-cat="সব">সব ছবি</button>
+      <button class="filter-btn brother-filter-btn" data-cat="ছোটবেলা">ছোটবেলা 👶</button>
+      <button class="filter-btn brother-filter-btn" data-cat="বর্তমান">বর্তমান 😎</button>
+      <button class="filter-btn brother-filter-btn" data-cat="পরিবার">পরিবার 👨‍👩‍👧‍👦</button>
+      <button class="filter-btn brother-filter-btn" data-cat="অনুষ্ঠান">অনুষ্ঠান 🎉</button>
+      <button class="filter-btn brother-filter-btn" data-cat="ভ্রমণ">ভ্রমণ ✈️</button>
+      <button class="filter-btn brother-filter-btn" data-cat="বন্ধুদের সাথে">বন্ধুদের সাথে 🤝</button>
+      <button class="filter-btn brother-filter-btn" data-cat="random">Random 😂</button>
+      <button class="filter-btn brother-filter-btn" data-cat="বিশেষ মুহূর্ত">বিশেষ মুহূর্ত ✨</button>
+    </div>
+
+    <div class="gallery-grid fade-in" id="brother-gallery-grid">
+      <!-- Rendered by JS -->
+    </div>
+
+    <div style="text-align:center;margin-top:2rem;" class="fade-in">
+      <p style="color:var(--text-muted);font-size:0.9rem;">
+        📁 ছবি যোগ করতে: <code style="color:var(--primary);">images/brother/</code> ফোল্ডারে ছবি রাখুন এবং <code style="color:var(--primary);">js/data.js</code>-এ <code style="color:var(--primary);">brotherPhotos</code> array আপডেট করুন।
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAMILY TREE ===================== -->
+<section id="family-tree">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2 class="section-title">পারিবারিক গাছ 🌳</h2>
+      <p class="section-subtitle">পরিবারের সবার সম্পর্কের ছবি — একটি নজরে</p>
+    </div>
+    <div class="tree-container fade-in">
+      <div id="family-tree-container">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+    <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;margin-top:1rem;">
+      💡 যেকোনো সদস্যের উপরে ক্লিক করলে তাঁর বিস্তারিত তথ্য দেখা যাবে।
+    </p>
+  </div>
+</section>
+
+
+
+
+
+<!-- ===================== FAMILY GALLERY ===================== -->
+<section id="family-gallery">
+  <div class="container">
+    <div class="section-header fade-in">
+      <h2 class="section-title">পরিবারের গ্যালারি 📷</h2>
+      <p class="section-subtitle">আমাদের সবার ছবি — একসাথে</p>
+    </div>
+
+    <div class="gallery-filter fade-in">
+      <button class="filter-btn fgallery-filter-btn active" data-cat="সব">সব ছবি</button>
+      <button class="filter-btn fgallery-filter-btn" data-cat="আব্বা-আম্মা">আব্বা-আম্মা</button>
+      <button class="filter-btn fgallery-filter-btn" data-cat="ভাই">ভাই</button>
+      <button class="filter-btn fgallery-filter-btn" data-cat="খালা-মামা">খালা-মামা</button>
+      <button class="filter-btn fgallery-filter-btn" data-cat="কাজিন">কাজিন</button>
+    </div>
+
+    <div class="fgallery-grid fade-in" id="fgallery-grid">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-logo">যোগ্য পাত্র সাকের ভাই</div>
+    <div class="footer-tagline">"একটি সুন্দর জীবনের প্রত্যাশায়..." ❤️</div>
+    <div class="footer-sub"></div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-nav">
+      <a href="#hero">হোম</a>
+      <a href="#main-char">মূল চরিত্র</a>
+      <a href="#brother-gallery">গ্যালারি</a>
+      <a href="#family">পরিবার</a>
+      <a href="#family-tree">Family Tree</a>
+    </div>
+
+    <div class="footer-hearts">❤️ 💕 ❤️</div>
+    <div class="footer-copyright">© ২০২৬ — আমাদের পরিবার | সবকিছু ভালোবাসার জন্য তৈরি।</div>
+  </div>
+</footer>
+
+<!-- ===================== MODAL ===================== -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal-box" id="modal-box">
+    <!-- Rendered by JS -->
+  </div>
+</div>
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-counter" id="lb-counter">1 / 1</div>
+  <button class="lightbox-close" id="lb-close">✕</button>
+  <button class="lightbox-nav lightbox-prev" id="lb-prev">‹</button>
+  <button class="lightbox-nav lightbox-next" id="lb-next">›</button>
+  <div class="lightbox-inner">
+    <img src="" alt="ছবি" id="lb-img">
+    <div class="lightbox-caption" id="lb-caption"></div>
+  </div>
+</div>
+
+<!-- ===================== BACK TO TOP ===================== -->
+<button id="back-to-top" aria-label="উপরে যান">↑</button>
+
+<!-- ===================== SCRIPTS ===================== -->
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
